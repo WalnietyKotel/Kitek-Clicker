@@ -1,0 +1,78 @@
+html {
+    height: 100%;
+    background-size: cover;
+};
+
+html::after{
+    background-size: cover;
+}
+
+#clickButton{
+    width: 20%;
+    height: 60%;
+    cursor: pointer;
+}
+
+#clickButton:hover{
+    scale: 105%;
+    border: #f05151 7px solid;
+}
+
+
+img{
+    width: 20%;
+    height: 55%;
+    border-radius: 20%;
+    margin: 5vh;
+    align-self: center;
+}
+
+body {
+    background: linear-gradient(#1bd115, #c5da08, #1bd115);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1, p {
+    color: #f05151;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+aside{
+    border: #5d1e70 solid 2px;
+    border-radius: 20px;
+    margin: 10rem;
+}
+
+aside > img{
+    display: flex;
+    width:  20%;
+    height: 55%;
+};
+
+#gablotaNaKitki{
+align-items: center;
+}
+
+button{
+    align-self: center;
+    border-radius: 5px;
+    background-color: #5d1e70;
+    color: #f05151;
+    font-size: 2vh;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover{
+    scale: 105%;
+    border: #f05151 2px solid;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kitek Clicker</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/kitek chleb.jpg">
+</head>
+<body id="body">
+    <div class="container">
+        <header>
+            <h1>Kitek Clicker</h1>
+        </header>
+        <img id="movingObject" style="display: none;" src="img/Ahoj Kamraci.jpg" alt="">
+        <main>
+            <h2>Ilość kitków: <span id="score">0</span></h2>
+            <img id="clickButton" src="img/kitek chleb.jpg">
+            <div id="next" style="display: none;">
+                <h2>Osiągnąłeś odpowiednią ilość kitków</h2>
+                <p>Aby przejść do następnego świata naciśnij przycisk:</p>
+                <button id="button">Następny poziom</button>
+            </div>
+            <div id="goToKitek" style="display: none;">
+                <img id="arrowDown" src="img/Arrow.png" alt="arrow Down" onclick="smoothScroll(document.getElementById('gablotaNaKitki'))">
+                <h2>Gablota na Kitki</h2>
+            </div>
+        </main>
+        <aside id="aside" style="display: none;">
+            <div id="gablotaNaKitki"></div>
+            <div id="goUp">
+            <img id="arrowUp" src="img/arrowup.png" alt="arrow up" onclick="smoothScroll(document.getElementById('body'))">
+            </div>
+        </aside>
+        <footer>
+            
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>

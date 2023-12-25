@@ -1,0 +1,217 @@
+/* html */
+html {
+    height: 100%;
+    background-size: cover;
+};
+
+html::after{
+    background-size: cover;
+} 
+
+#clickButton{
+    width: 20%;
+    height: 60%;
+    cursor: pointer;
+}
+
+#clickButton:hover{
+    scale: 105%;
+    transition: 1s;
+}
+
+
+img{
+    width: 20%;
+    height: 55%;
+    border-radius: 20%;
+    align-self: center;
+}
+
+body {
+    background: linear-gradient(#5d1e70, #3c81cf, #b739de);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* header */
+header{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+h1, p {
+    color: #f05151;
+}
+
+/* main */
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+button{
+    align-self: center;
+    border-radius: 5px;
+    background-color: #5d1e70;
+    color: #f05151;
+    font-size: 2vh;
+    cursor: pointer;
+    border: none;
+    margin: 1rem;
+}
+
+button:hover{
+    scale: 105%;
+    transition: 1s;
+    border: #f05151 2px solid;
+}
+
+.box a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 3px;
+}
+.modal {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(254, 126, 126, 0.7);
+    transition: all 0.4s;
+    opacity: 0;
+}
+.content {
+    position: absolute;
+    background: white;
+    width: 400px;
+    padding: 1em 2em;
+    border-radius: 4px;
+} 
+.modal:target {
+    visibility: visible;
+    opacity: 1;
+}
+.box-close {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    color: #fe0606;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+#movingObject {
+    position: absolute;
+    width: 10%;
+    height: 20%;
+    cursor: pointer;
+}
+
+#next{
+    margin-top: 5rem;
+    font-size: 1.3vw;
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 60%;
+    background: linear-gradient(#3d0d57, #c21cd8);
+    border-radius: 20px;
+}
+
+#button{
+    width: 50%;
+    height: 30%;
+    font-size: 2vw;
+    color: #fe0606;
+    background-color: #80176f;
+    border-radius: 20px;
+    border: none;
+}
+
+#goToKitek{
+    margin-top: 4rem;
+}
+
+/* aside */
+
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 14rem;
+    margin-bottom: 5.7rem;
+    row-gap: 4rem;
+}
+
+
+#gablotaNaKitki{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-around;
+    border: #5d1e70 solid 2px;
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+#gablotaNaKitki > img{
+    width:  20%;
+    height: 80%;
+};
+
+#goUp{
+    display: flex;
+    width: 60%;
+    padding-top: 4rem;
+}
+
+#goUp > img{
+    width: 30%;
+    height: 40%;
+}
+
+#arrowUp{
+    scale: 70%;
+    cursor: pointer;
+}
+
+#arrowUp:hover{
+    scale: 101%;
+    transition: 1s;
+}
+
+
+
+#arrowDown{
+    cursor: pointer;
+}
+
+#arrowDown:hover{
+    scale:110%;
+    transition: 1s;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: end;
+}
+
